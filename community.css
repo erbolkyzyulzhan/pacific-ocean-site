@@ -1,0 +1,17 @@
+.community-section{padding:86px max(7vw,24px) 75px;background:radial-gradient(ellipse at 50% 0,#0b3151,#020816 70%);color:#effaff}
+.community-section>h2{font-size:clamp(28px,4vw,44px);margin:0 0 10px;letter-spacing:-.03em}
+.community-lead{max-width:650px;margin:0 0 28px;color:#a9c7d7;font-size:13px;line-height:1.7}
+#entry-form{max-width:920px;padding:22px;border:1px solid #6ab9d73d;background:#071a2dbd}
+.form-row{display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:10px}
+.form-row select,.form-row input,#entry-form textarea{width:100%;padding:12px 13px;border:1px solid #8bc7dc44;background:#041020;color:#eaf8ff;font:inherit;font-size:12px;outline:none}
+.form-row select:focus,.form-row input:focus,#entry-form textarea:focus{border-color:#25d4e9}
+.form-row select option{background:#041020;color:#fff}
+#entry-form textarea{display:block;min-height:118px;margin-top:10px;resize:vertical}
+.form-actions{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:12px}
+.form-actions>span{font-size:10px;color:#90b1c4}.form-actions .button{cursor:pointer;background:#0b4565}
+.community-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;max-width:920px;margin-top:20px}
+.community-list>p{color:#7697aa;font-size:12px}.community-entry{padding:16px;border-left:2px solid #19cedf;background:#061629}.community-entry>span{color:#5dcad9;font-size:9px;letter-spacing:.1em}.community-entry p{font-size:13px;line-height:1.55;margin:8px 0;color:#e1edf4}.community-entry small{color:#7999ad;font-size:9px}
+@media(max-width:700px){.community-section{padding:64px 6vw}.form-row{grid-template-columns:1fr}.form-actions{align-items:flex-start;flex-direction:column}.community-list{grid-template-columns:1fr}#entry-form{padding:15px}}
+
+.back-to-top{display:table;margin:38px auto 0;padding:13px 20px;border:1px solid #26cfe2;color:#42d9e8;font-size:13px;letter-spacing:.04em;transition:background .2s,color .2s}.back-to-top span{margin-left:8px}.back-to-top:hover{background:#1dcadd;color:#031322}
+

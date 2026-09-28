@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="kk">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Келген сұрақтар — Pacific</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="database.css"></head>
+<body class="database-page">
+  <header class="topbar"><a class="brand" href="/">PACIFIC<span>·</span></a><nav><a href="/">Басты бет</a><a href="/#zone-sections">Мұхит аймақтары</a></nav></header>
+  <main class="database-shell">
+    <header class="database-heading"><p class="eyebrow">ЖЕКЕ БӨЛІМ</p><h1>Келген сұрақтар мен пікірлер</h1><p>Қонақтардың сұрақтары мен ұсынған деректері осы жерде көрінеді.</p></header>
+    <form id="admin-login" class="admin-login"><label for="admin-password">Әкімші құпиясөзі</label><div><input id="admin-password" type="password" autocomplete="current-password" required placeholder="Құпиясөзді енгізіңіз"><button class="button" type="submit">КІРУ <span>→</span></button></div><p id="login-status">Құпиясөз сайтты іске қосқан терезеде көрсетіледі.</p></form>
+    <div id="admin-content" hidden>
+      <div class="inbox-toolbar"><p id="refresh-note">Жаңа жазбалар автоматты түрде тексеріледі.</p><button id="logout-button" type="button">Шығу</button></div>
+      <div class="database-stats" id="database-stats"></div>
+      <section class="data-section" id="entries"><h2>Келген сұрақтар мен ұсыныстар</h2><p class="section-note">Мұнда барлық жазба тек саған көрінеді. «Жариялау» батырмасын бассаң ғана жазба сайтта қонақтарға көрсетіледі.</p><div class="table-wrap"><table><thead><tr><th>Күні</th><th>Түрі</th><th>Аймағы</th><th>Есімі</th><th>Мәтіні</th><th>Күйі</th><th></th></tr></thead><tbody id="entries-rows"></tbody></table></div></section>
+      <details class="other-data"><summary>Мұхит туралы база деректерін көру</summary>
+        <section class="data-section"><h2>Мұхит аймақтары</h2><div class="table-wrap"><table><thead><tr><th>Аймақ</th><th>Тереңдігі</th><th>Түр саны</th><th>Ғылыми атауы</th></tr></thead><tbody id="zones-rows"></tbody></table></div></section>
+        <section class="data-section"><h2>Мұхит тұрғындары</h2><div class="table-wrap"><table><thead><tr><th>Атауы</th><th>Аймағы</th><th>Санаты</th><th>Сипаттамасы</th></tr></thead><tbody id="species-rows"></tbody></table></div></section>
+        <section class="data-section"><h2>Адамға арналған жағдайлар</h2><div class="table-wrap"><table><thead><tr><th>Аймақ</th><th>Қысым</th><th>Дене реакциясы</th><th>Қорғаныс</th><th>Түйін</th></tr></thead><tbody id="condition-rows"></tbody></table></div></section>
+      </details>
+    </div>
+  </main>
+  <footer>Pacific · Қонақ жазбалары SQLite базасында сақталады</footer><script src="database.js"></script>
+</body></html>

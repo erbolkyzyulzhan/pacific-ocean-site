@@ -1,0 +1,16 @@
+# Local database may contain visitor submissions
+ocean.db
+admin_password.txt
+session_secret.txt
+
+# Python cache and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+/python

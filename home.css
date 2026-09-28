@@ -1,0 +1,13 @@
+.home .topbar{background:#ffffff18;border-bottom-color:#ffffff55}
+.home .brand,.home nav{color:#09166e}
+.home nav a:hover{color:#0b208f}
+.home .hero-shade{background:linear-gradient(90deg,#ffffff12,#ffffff05 60%),linear-gradient(0deg,#03254b18,transparent 60%)}
+.home .hero h1{display:table;max-width:100%;margin:0 auto 38px;padding:4px 22px;text-align:center;color:#101778;background:#ffffff38;text-shadow:none;backdrop-filter:blur(5px)}
+.home .hero .eyebrow{color:#102379}
+.home .intro p{color:#14233b;text-shadow:none;text-align:center}
+.home .hero .button{border-color:#142184;color:#101778;background:#ffffff30}
+.home .hero .button:hover{background:#102184;color:#fff}
+.home .facts{background:#ffffff8c;border-color:#ffffffbd}
+.home .facts b,.home .facts span{color:#111827}
+.home .scroll-note{color:#101778}
+@media(max-width:760px){.home .hero h1{padding:8px 12px;margin-bottom:24px}.home .hero .eyebrow{color:#101778}.home .topbar{background:#f4fbff40}}

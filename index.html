@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Тынық мұхитының құпиялары мен тереңдік аймақтарына саяхат.">
+  <title>Тынық мұхиты — тереңдікке саяхат</title>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="zones.css"><link rel="stylesheet" href="community.css">
+</head>
+<body class="home">
+  <header class="topbar"><a class="brand" href="/">PACIFIC<span>·</span></a><nav><a href="/#top">Басты бет</a><a href="#zone-sections">Мұхит аймақтары</a><a href="#community">Пікір қалдыру</a><a href="/feedback">Келген сұрақтар</a></nav></header>
+  <main class="hero" id="top">
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <p class="eyebrow">ТЫНЫҚ МҰХИТЫ · ТЕРЕҢДІККЕ САЯХАТ</p>
+      <h1>Біз өз мұхитымыздан гөрі<br>Айдың бетін жақсырақ білеміз</h1>
+      <div class="hero-grid">
+        <div class="intro"><p>Мұхит түбінің 80%-дан астамы әлі толық зерттелмеген. Жарық таусылып, мәңгілік түнек басталатын шыңырауға сүңгуге дайынсыз ба?</p><a class="button" href="#zone-sections">ТЕРЕҢДІККЕ СҮҢГУ <span>↓</span></a></div>
+        <div class="facts" id="facts"><div><b>11 000 м</b><span>Мариан шұңғымасының шамамен тереңдігі</span></div><div><b>5 аймақ</b><span>Мұхиттың тереңдік белдеуі</span></div><div><b>Тіршілік</b><span>Әр қабаттың өзіне тән мекендеушілері бар</span></div></div>
+      </div>
+    </div>
+    <div class="scroll-note">ТӨМЕНГЕ ЖЫЛЖЫТЫҢЫЗ ↓</div>
+  </main>
+  <section id="zone-sections" class="all-zone-stories"><div id="story-list"><p class="stories-loading">Мұхит аймақтары жүктелуде…</p></div></section>
+  <section class="community-section" id="community"><p class="eyebrow">ҚОНАҚТАРДЫҢ ҮЛЕСІ</p><h2>Сұрағыңды немесе дерегіңді бөліс</h2><p class="community-lead">Сұрақ қой немесе мұхит туралы қызықты дерек ұсын. Жаңа жазбалар тексерілгеннен кейін сайтта жарияланады.</p><form id="entry-form"><div class="form-row"><select name="entry_type" aria-label="Жазба түрі"><option value="question">Сұрақ қою</option><option value="fact">Дерек ұсыну</option></select><select name="zone_id" id="entry-zone" aria-label="Аймақты таңдау"><option value="">Барлық аймақ</option></select><input name="visitor_name" maxlength="60" placeholder="Есімің (міндетті емес)"></div><textarea name="message" minlength="8" maxlength="800" required placeholder="Сұрағыңды немесе дерегіңді осында жаз…"></textarea><div class="form-actions"><span id="form-status">Электрондық пошта қажет емес.</span><button class="button" type="submit">ЖІБЕРУ <span>→</span></button></div></form><div class="community-list" id="community-list"><p>Жарияланған қонақ жазбалары әзірге жоқ.</p></div><a class="back-to-top" href="#top" aria-label="Сайттың басына қайту">↑ <span>БАСТЫ БЕТКЕ ОРАЛУ</span></a></section>
+  <footer>Тынық мұхиты туралы оқу жобасы <span>·</span> Аймақтар мен деректер SQLite базасынан алынады</footer>
+  <script src="zones.js"></script>
+  <script src="community.js"></script>
+</body></html>
