@@ -11,3 +11,5 @@
 .home .facts b,.home .facts span{color:#111827}
 .home .scroll-note{color:#101778}
 @media(max-width:760px){.home .hero h1{padding:8px 12px;margin-bottom:24px}.home .hero .eyebrow{color:#101778}.home .topbar{background:#f4fbff40}}
+.home footer p{margin:0}
+.home footer .credit{margin-top:8px;color:#b4cbd7;font-size:11px;letter-spacing:.04em}
